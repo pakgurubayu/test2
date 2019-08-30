@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login or Register</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			font-family: sans-serif;
+		}
+		html{
+			background: url(bg.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			min-height: 100%;
+			background-size: cover;
+		}
+		.kotak{
+			width: 300px;
+			height: 400px;
+			padding: 25px;
+			border-radius: 25px;
+			background-color: #eee;
+			color: #444;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.kotak h1{
+			text-align: center;
+		}
+		.kotak h2{
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		form{
+			text-align: center;
+		}
+		input{
+			width: 80%;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border-radius: 20px;
+			border: solid gray;
+			align-content: center;
+			padding: 2% 5% 2% 5%;
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+		input:focus{
+			outline: none;
+			border: solid #1da1f2;
+		}
+		button{
+			width: 200px;
+			padding: 5px 20px 5px 20px;
+			border-radius: 15px;
+			border: none;
+			background-color: #1da1f2;
+			color: white;
+			font-weight: bold;
+			margin: 15px;
+		}
+		button:hover{
+			background-color: #222222;
+		}
+	</style>
+</head>
+<body>
+	<div class="kotak">
+		<h1>LOGO<br>ANDA</h1>
+		<h2>Masuk ke Sistem</h2>
+		<form>
+			<input type="text" name="username" placeholder="Username...">
+			<input type="password" name="username" placeholder="Password...">
+			<button>LOGIN</button>
+			<h3>atau</h3>
+			<button>DAFTAR</button>
+		</form>
+	</div>
+</body>
+</html>
